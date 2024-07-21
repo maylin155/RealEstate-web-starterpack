@@ -1,0 +1,78 @@
+.v-container .image-container{
+    border: 8px solid rgb(220, 220, 220);
+}
+
+.v-wrapper{
+  padding: 5rem;
+}
+
+
+.v-container>div{
+    flex: 1;
+}
+
+.v-right{
+  gap:0.5rem;
+}
+
+.accordion {
+    margin-top: 2rem;
+    border: none;
+
+}
+
+.accordion-button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordionItem{
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom:10px;
+    padding: 20px;
+
+}
+
+.icon{
+    padding: 10px;
+    color: #eeefff;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.icon svg{
+    fill: var(--grey)
+}
+
+.accordion-heading{
+    font-size: 1.8rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .v-container {
+      flex-direction: column;
+    }
+  
+    .accordionItem {
+      padding: 8px; /* Smaller padding for smaller screens */
+    }
+  
+    .accordion-heading {
+      font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .accordionItem {
+      padding: 8px; /* Even smaller padding for very small screens */
+    }
+  
+    .accordion-heading {
+      font-size: 1.2rem; /* Smaller font size for very small screens */
+    }
+
+  }

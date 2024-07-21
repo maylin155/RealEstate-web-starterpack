@@ -1,0 +1,36 @@
+.inner-container {
+    gap: 1.5rem;
+    background: linear-gradient(to right, #754bab 0%, #4148af 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inner-container .primaryText{
+    color: white;
+    font-weight: 600;
+}
+
+.inner-container .secondaryText{
+    color: white;
+}
+
+.inner-container .button{
+    background: #7749c7;
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+
+@media (min-width: 1280px) {
+    .g-wrapper {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .get-started-title{
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+  }
